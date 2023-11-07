@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "";
+}
+@model EARGE.iyzico.Models.iyzicoExpressPaymentInfoModel
+@using EARGE.Web.Framework;
+
+@if (Model.CurrentPageIsBasket)
+{
+    <div class="form-horizontal">
+        <a href='@Url.Action("SubmitButton", "iyzicoExpress", new { area = "EARGE.iyzico" })'>
+            <img id="paypal-express-button" alt="" src="@Model.SubmitButtonImageUrl" />
+        </a>
+    </div>
+}

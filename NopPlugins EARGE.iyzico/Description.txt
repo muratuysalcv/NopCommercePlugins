@@ -1,0 +1,10 @@
+﻿FriendlyName: iyzico
+Description: Provides the iyzico payment methods iyzico Express, iyzico Standard and iyzico Direct.
+SystemName: EARGE.iyzico
+Group: Payment
+Version: 1.22
+MinAppVersion: 2.1.0
+DisplayOrder: 1
+FileName: EARGE.iyzico.dll
+ResourceRootKey: Plugins.EARGE.iyzico
+Url: http://www.earge.com.tr

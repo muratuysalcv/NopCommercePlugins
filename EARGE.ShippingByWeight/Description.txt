@@ -1,0 +1,8 @@
+﻿FriendlyName: Shipping by weight
+SystemName: EARGE.ShippingByWeight
+Group: Shipping
+Version: 1.62
+MinAppVersion: 2.1.0
+DisplayOrder: 1
+FileName: EARGE.ShippingByWeight.dll
+ResourceRootKey: Plugins.Shipping.ByWeight
